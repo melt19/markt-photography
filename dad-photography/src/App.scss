@@ -40,7 +40,6 @@ a {
 
   margin: 0;
   padding: 1rem;
-  border: 1px solid red;
 
   i { // nav logo
     flex: 0 0 auto;
@@ -64,7 +63,7 @@ a {
 .body {
   flex: 1 0 auto;
 
-  min-height: 100%px;
+  min-height: 100%;
   max-height: none;
   
   min-width: 100vw;

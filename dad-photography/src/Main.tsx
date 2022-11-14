@@ -1,7 +1,8 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import { Link, Navigator } from 'react-router-dom'
+import './App.scss'
 
-export function Main() {
+export const Main = () => {
   return (
     <div>
         <Header />
@@ -15,28 +16,18 @@ export function Main() {
 function Header() {
   return (
     <div className='header'>
-      <p className='header-title'>
-        Mark Turner Photography
-      </p>
-      <nav>
-        <ol>
-          <li>
-            <a href='/'>
-              Home
-            </a>
-          </li>
-          <li>
-            <a href='/gallery'>
-              Gallery
-            </a>
-          </li>
-          <li>
-            <a href='/about'>
-              About Mark
-            </a>
-          </li>
-        </ol>
-      </nav>
+      <i className='fa-solid fa-camera fa-3x' />
+      <span>
+        <Link to='home'>
+          Home
+        </Link>
+        <Link to='gallery'>
+          Gallery
+        </Link>
+        <Link to='about'>
+          About
+        </Link>
+      </span>
     </div>
   )
 }

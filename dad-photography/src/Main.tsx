@@ -5,8 +5,8 @@ import './App.scss'
 export const Home = () => {
   return (
     <div>
-        <Body />
-        <Footer />
+      <Body />
+      <Footer />
     </div>
   )
 }

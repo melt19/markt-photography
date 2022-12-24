@@ -1,11 +1,22 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 
+import image0 from './images/__0_2931.jpg'
+import image1 from './images/__1_2930.jpg'
+
+const imageList = [ image0, image1 ]
+
 export const Gallery = () => {
   
   return (
-    <div>
-      <a data-flickr-embed="true" data-footer="true" href="https://www.flickr.com/photos/197166779@N03/52570212416/in/dateposted-public/" title="Yellow Badge"><img src="https://live.staticflickr.com/65535/52570212416_4981a2387a_o.png" width="660" height="764" alt="Yellow Badge"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charSet="utf-8"></script>
+    <div className='image-page'>
+      <p className='title'>Gallery</p>
+      <div>
+        <span></span>
+      </div>
+      <div className='image-list'>
+        { imageList.map( image => <img src={image} /> )}
+      </div>
     </div>
   )
 }

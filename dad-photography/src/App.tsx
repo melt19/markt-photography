@@ -4,6 +4,7 @@ import './App.scss'
 import { Gallery, ImagePage } from './Gallery'
 import { Header } from './Header'
 import { Home } from './Main'
+import { About } from './About'
 
 const Layout = () => {
   return (
@@ -20,6 +21,7 @@ const router = createBrowserRouter(
       <Route path='home' element={<Home />} />
       <Route path='gallery' element={<Gallery />} />
       <Route path='gallery/:imageID' element={<ImagePage />} />
+      <Route path='about' element={<About />} />
     </Route>
   )
 )

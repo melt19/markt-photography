@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/markt-photography/static/css/main.a9bfc9a2.css",
-    "main.js": "/markt-photography/static/js/main.79df44ec.js",
+    "main.js": "/markt-photography/static/js/main.a6d699da.js",
     "static/js/496.bc25776e.chunk.js": "/markt-photography/static/js/496.bc25776e.chunk.js",
     "static/media/IMG_1279.jpeg": "/markt-photography/static/media/IMG_1279.4f70632140bb5227b233.jpeg",
     "static/media/IMG_1069.jpeg": "/markt-photography/static/media/IMG_1069.05a30cf0496b42b3fabc.jpeg",
@@ -29,11 +29,11 @@
     "static/media/IMG_1301.jpeg": "/markt-photography/static/media/IMG_1301.73eb64e976f9030e5359.jpeg",
     "index.html": "/markt-photography/index.html",
     "main.a9bfc9a2.css.map": "/markt-photography/static/css/main.a9bfc9a2.css.map",
-    "main.79df44ec.js.map": "/markt-photography/static/js/main.79df44ec.js.map",
+    "main.a6d699da.js.map": "/markt-photography/static/js/main.a6d699da.js.map",
     "496.bc25776e.chunk.js.map": "/markt-photography/static/js/496.bc25776e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a9bfc9a2.css",
-    "static/js/main.79df44ec.js"
+    "static/js/main.a6d699da.js"
   ]
 }

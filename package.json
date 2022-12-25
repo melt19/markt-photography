@@ -48,5 +48,6 @@
   "devDependencies": {
     "@types/node": "^18.11.17",
     "gh-pages": "^4.0.0"
-  }
+  },
+  "homepage": "https://melt19.github.io/markt-photography"
 }
